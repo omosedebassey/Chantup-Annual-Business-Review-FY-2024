@@ -1,10 +1,10 @@
-# 📊 ChantUp 2024 Annual Business Review — Power BI Dashboard
+# 📊 ChantUp 2024 Annual Business Review - Power BI Dashboard
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/Domain-Business%20Intelligence-blue?style=for-the-badge)
 
-> An end-to-end Business Intelligence project analysing FY 2024 sales performance for **ChantUp** — a social commerce platform serving student entrepreneurs across six Nigerian university campuses.
+> An end-to-end Business Intelligence project analysing FY 2024 sales performance for **ChantUp**- a social commerce platform serving student entrepreneurs across six Nigerian university campuses.
 
 ---
 
@@ -32,7 +32,7 @@ chantup-annual-review-2024/
 
 ## 🏢 Business Context
 
-ChantUp is a rapidly growing social commerce platform tailored for student entrepreneurs across Nigerian campuses. As a **Junior Business Intelligence Analyst**, the objective was to deliver an Annual Business Review to the executive board — going beyond stating *what* happened to explaining *why* it happened and recommending *what* the company should do in 2025 to increase profitability.
+ChantUp is a rapidly growing social commerce platform tailored for student entrepreneurs across Nigerian campuses. As a **Junior Business Intelligence Analyst**, the objective was to deliver an Annual Business Review to the executive board, going beyond stating *what* happened to explaining *why* it happened and recommending *what* the company should do in 2025 to increase profitability.
 
 ---
 
@@ -42,22 +42,22 @@ The analysis addresses four core business challenges plus additional behavioural
 
 | Challenge | Focus Area |
 |-----------|------------|
-| Challenge 1 | Seasonality — identifying peak sales periods tied to the academic calendar |
-| Challenge 2 | Marketing Efficiency — evaluating referral source ROI |
-| Challenge 3 | Product Category Performance — identifying margin drivers and hidden gems |
-| Challenge 4 | Geographic Expansion — comparing campus performance across Nigeria |
-| Bonus | Behavioural Insights — time of day, age group, user tier, and product analysis |
+| Challenge 1 | Seasonality: identifying peak sales periods tied to the academic calendar |
+| Challenge 2 | Marketing Efficiency: evaluating referral source ROI |
+| Challenge 3 | Product Category Performance: identifying margin drivers and hidden gems |
+| Challenge 4 | Geographic Expansion: comparing campus performance across Nigeria |
+| Bonus | Behavioural Insights: time of day, age group, user tier, and product analysis |
 
 ---
 
 ## 📊 Dashboard Pages
 
-### Page 1 — Title Page
+### Page 1. Title Page
 A branded cover page with ChantUp logo, geometric design elements, report title, and analyst credit.
 
 ---
 
-### Page 2 — Campus Sales Analysis
+### Page 2. Campus Sales Analysis
 **Slicers:** Age Group (18-21, 22-25, 26-30, 30+) | Category
 
 **KPI Cards (6):**
@@ -71,14 +71,14 @@ A branded cover page with ChantUp logo, geometric design elements, report title,
 | Campuses | 6 |
 
 **Visuals:**
-- **Total Revenue and Total Profit by Month** — clustered column chart with profit line overlay, clearly showing the August (₦3.6M) and December (₦4.5M) troughs vs the September–October resumption peak (₦14.2M)
-- **Total Revenue, Total Profit and Profit Margin by Campus** — clustered bar chart with profit margin % line overlay; UNILAG leads revenue at ₦19.9M, UNN Nsukka highest margin at 60.89%, University of Ibadan lowest margin at 59.28%
-- **Total Complete Orders by Campus** — horizontal bar chart (UNILAG 1,155 → UNN Nsukka 1,086); acts as a cross-filter for all other visuals on the page
-- **Total Profit Complete by Gender** — donut chart; Female ₦37.14M (55.1%), Male ₦28.13M (41.7%), Non-Binary ₦2.19M (3.2%)
+- **Total Revenue and Total Profit by Month** - clustered column chart with profit line overlay, clearly showing the August (₦3.6M) and December (₦4.5M) troughs vs the September-October resumption peak (₦14.2M)
+- **Total Revenue, Total Profit and Profit Margin by Campus** - clustered bar chart with profit margin % line overlay; UNILAG leads revenue at ₦19.9M, UNN Nsukka highest margin at 60.89%, University of Ibadan lowest margin at 59.28%
+- **Total Complete Orders by Campus** - horizontal bar chart (UNILAG 1,155 → UNN Nsukka 1,086); acts as a cross-filter for all other visuals on the page
+- **Total Profit Complete by Gender** - donut chart; Female ₦37.14M (55.1%), Male ₦28.13M (41.7%), Non-Binary ₦2.19M (3.2%)
 
 ---
 
-### Page 3 — Sales Analysis by Referral Source and Category
+### Page 3. Sales Analysis by Referral Source and Category
 **Slicers:** Gender | User Tier | Region
 
 **KPI Cards (6):**
@@ -92,19 +92,19 @@ A branded cover page with ChantUp logo, geometric design elements, report title,
 | Referral Sources | 5 |
 
 **Transaction Health Cards (3):**
-- 🟢 **6,781** — Complete Orders
-- 🟠 **204** — Refunded Orders
-- 🔴 **515** — Failed Orders
+- 🟢 **6,781** - Complete Orders
+- 🟠 **204** - Refunded Orders
+- 🔴 **515** - Failed Orders
 
 **Visuals:**
-- **Total Revenue by Referral Source** — bar chart; Reels dominates at ₦55M, Search lowest at ₦6M
-- **Failure Rate % by Referral Source** — horizontal bar chart showing rates not absolute values; Profile Feed highest at 7.28%, Direct Link 7.18%, Search lowest at 6.59%
-- **Completed Sales and Profit Margin by Referral Source** — combo chart; Profile Feed achieves the highest margin (61.38%) despite lower volume
-- **Total Revenue, Total Profit and Profit Margin by Category** — combo chart with margin line; Digital Skills leads at 87.1%, Subscription second at 85.0%, Electronics lowest at 32.1%
+- **Total Revenue by Referral Source** - bar chart; Reels dominates at ₦55M, Search lowest at ₦6M
+- **Failure Rate % by Referral Source** - horizontal bar chart showing rates not absolute values; Profile Feed highest at 7.28%, Direct Link 7.18%, Search lowest at 6.59%
+- **Completed Sales and Profit Margin by Referral Source** - combo chart; Profile Feed achieves the highest margin (61.38%) despite lower volume
+- **Total Revenue, Total Profit and Profit Margin by Category** - combo chart with margin line; Digital Skills leads at 87.1%, Subscription second at 85.0%, Electronics lowest at 32.1%
 
 ---
 
-### Page 4 — Behavioural Insights
+### Page 4. Behavioural Insights
 **Slicers:** Campus | Category | Gender
 
 **KPI Cards (5):**
@@ -117,47 +117,47 @@ A branded cover page with ChantUp logo, geometric design elements, report title,
 | Peak Hour % | 37% |
 
 **Visuals:**
-- **Order Count by Hour Label** — column chart running 12AM → 11PM; sharp evening peak at 7PM (934), 8PM (978), 9PM (871); near-zero activity from 12AM–5AM
-- **Completed Sales and Profit Margin by Age Group** — combo chart; 18-21 drives highest volume (₦54M) but 26-30 achieves the highest margin (61.43%) — an underserved opportunity
-- **Order Count by Category** — horizontal bar chart (completed orders only); Fashion leads at 1,953, Food lowest at 938
-- **Total Revenue, Total Profit and Profit Margin by Product Name** — combo chart; Power BI Masterclass dominates at ₦41M (87.1% margin), ChantUp Premium Monthly achieves 85% margin at near-zero cost
-- **Total Orders by User Tier** — donut chart; Free 4,617 (68%), Premium 1,927 (28%), Influencer 237 (3%)
+- **Order Count by Hour Label** - column chart running 12AM → 11PM; sharp evening peak at 7PM (934), 8PM (978), 9PM (871); near-zero activity from 12AM–5AM
+- **Completed Sales and Profit Margin by Age Group** - combo chart; 18-21 drives highest volume (₦54M) but 26-30 achieves the highest margin (61.43%), an underserved opportunity
+- **Order Count by Category** - horizontal bar chart (completed orders only); Fashion leads at 1,953, Food lowest at 938
+- **Total Revenue, Total Profit and Profit Margin by Product Name** - combo chart; Power BI Masterclass dominates at ₦41M (87.1% margin), ChantUp Premium Monthly achieves 85% margin at near-zero cost
+- **Total Orders by User Tier** - donut chart; Free 4,617 (68%), Premium 1,927 (28%), Influencer 237 (3%)
 
 ---
 
 ## 🔍 Key Findings
 
-### Challenge 1 — Seasonality
+### Challenge 1: Seasonality
 - **October** was the single highest revenue month at **₦14.2M**, driven by first-semester resumption
-- **September–October combined** generated **₦26.3M** — the year's most critical commercial window
+- **September–October combined** generated **₦26.3M** - the year's most critical commercial window
 - **August** (₦3.6M) and **December** (₦4.5M) were the lowest months, coinciding with inter-semester holidays
 - **June** (₦11.2M) marks a secondary peak driven by exam season purchasing behaviour
 
-### Challenge 2 — Marketing Channels
-- **Reels** drives the highest volume at ₦55M revenue — ChantUp's dominant acquisition engine
-- **Profile Feed** has the highest failure rate at **7.28%** — checkout friction requires a UX review
+### Challenge 2: Marketing Channels
+- **Reels** drives the highest volume at ₦55M revenue: ChantUp's dominant acquisition engine
+- **Profile Feed** has the highest failure rate at **7.28%**: checkout friction requires a UX review
 - **Direct Link** failure rate of 7.18% also exceeds the platform average of 6.9%
-- **Search** has the lowest failure rate (6.59%) — high-intent buyers, systematically under-invested channel
-- **Profile Feed** achieves the highest completed sales margin at **61.38%** — high quality when users do convert
+- **Search** has the lowest failure rate (6.59%): high-intent buyers, systematically under-invested channel
+- **Profile Feed** achieves the highest completed sales margin at **61.38%**: high quality when users do convert
 
-### Challenge 3 — Product Categories
-- **Digital Skills** — ₦41M revenue, **87.1% margin** — most profitable category by far
-- **Subscription** — **85% margin** with a near-zero cost base — the hidden gem
-- **Electronics** — ₦32M revenue but only **32.1% margin** due to high procurement costs
-- **Fashion** — highest order volume (1,953 completed orders) — the platform's gateway product
-- **Academic** — solid 75% margin, consistent demand tied to the academic calendar
+### Challenge 3: Product Categories
+- **Digital Skills** - ₦41M revenue, **87.1% margin**: most profitable category by far
+- **Subscription** - **85% margin** with a near-zero cost base: the hidden gem
+- **Electronics** - ₦32M revenue but only **32.1% margin** due to high procurement costs
+- **Fashion** - highest order volume (1,953 completed orders): the platform's gateway product
+- **Academic** - solid 75% margin, consistent demand tied to the academic calendar
 
-### Challenge 4 — Campus Performance
+### Challenge 4: Campus Performance
 - **UNILAG** leads in revenue (₦19.9M) and completed orders (1,155)
 - **UNN Nsukka** has the highest profit margin (60.89%) despite the lowest order count (1,086)
-- Performance gap between campuses is only **18.4%** — strong product-market fit across all regions
-- **ABU Zaria** (North West) performs competitively with southern campuses — validates Pan-Nigeria expansion strategy
+- Performance gap between campuses is only **18.4%**; strong product-market fit across all regions
+- **ABU Zaria** (North West) performs competitively with southern campuses; validates Pan-Nigeria expansion strategy
 
 ### Behavioural Insights
 - **8 PM** is the peak shopping hour; **7PM–9PM** accounts for **37% of all daily orders**
-- Activity is near-zero between 12AM–5AM — no marketing spend warranted in these hours
-- **Age 26–30** has the highest profit margin (61.43%) but the smallest order volume — the most underserved segment
-- **Free tier** users dominate at 68% of orders — large opportunity to convert to Premium (28%)
+- Activity is near-zero between 12AM–5AM; no marketing spend warranted in these hours
+- **Age 26–30** has the highest profit margin (61.43%) but the smallest order volume; the most underserved segment
+- **Free tier** users dominate at 68% of orders; large opportunity to convert to Premium (28%)
 - **Influencer tier** represents only 3% of orders but carries disproportionate referral influence
 
 ---
@@ -331,8 +331,8 @@ git clone https://github.com/yourusername/chantup-annual-review-2024.git
 
 **Omosede Bassey**
 Junior Business Intelligence Analyst
-📧 *(your email)*
-🔗 *(your LinkedIn URL)*
+📧 *(omosede.bassey@gmail.com)*
+🔗 *([https://www.linkedin.com/in/omosede-bassey-978bb1289/])*
 
 ---
 
