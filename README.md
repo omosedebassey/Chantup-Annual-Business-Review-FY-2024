@@ -233,20 +233,20 @@ if [Order_Hour] >= 19 and [Order_Hour] <= 21 then 1 else 0
 ## ⚙️ DAX Measures
 
 ```dax
-// ── Revenue & Profitability ──
+*Revenue & Profitability*
 Total Revenue = SUMX(Fact_Sales, Fact_Sales[Quantity] * Fact_Sales[Unit_Price])
 Total Cost = SUMX(Fact_Sales, Fact_Sales[Quantity] * Fact_Sales[Unit_Cost])
 Total Profit = [Total Revenue] - [Total Cost]
 Profit Margin % = DIVIDE([Total Profit], [Total Revenue], 0)
 Profit per Order = DIVIDE([Total Revenue], [Completed Orders], 0)
 
-// ── Transaction Health ──
+*Transaction Health*
 Completed Orders = CALCULATE(COUNTROWS(Fact_Sales), Fact_Sales[Status] = "Completed")
 Failed Orders = CALCULATE(COUNTROWS(Fact_Sales), Fact_Sales[Status] = "Failed")
 Refunded Orders = CALCULATE(COUNTROWS(Fact_Sales), Fact_Sales[Status] = "Refunded")
 Failure Rate % = DIVIDE([Failed Orders], COUNTROWS(Fact_Sales), 0)
 
-// ── Behavioural KPIs ──
+*Behavioural KPIs*
 Peak Hour Orders =
 CALCULATE(
     COUNT(Fact_Sales[Order_ID]),
@@ -279,7 +279,7 @@ IF(PeakHour < 12, PeakHour & " AM",
 IF(PeakHour = 12, "12 PM",
 (PeakHour - 12) & " PM")))
 
-// ── Conditional Formatting ──
+*Conditional Formatting*
 Hour Highlight =
 VAR SelectedHour = SELECTEDVALUE(Fact_Sales[Order_Hour])
 RETURN IF(AND(SelectedHour >= 19, SelectedHour <= 21), 1, 0)
@@ -291,7 +291,7 @@ RETURN IF(AND(SelectedHour >= 19, SelectedHour <= 21), 1, 0)
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/chantup-annual-review-2024.git
+git clone https://github.com/omosedebassey/Chantup-Annual-Business-Review-FY-2024.git
 ```
 
 2. **Open the report**
